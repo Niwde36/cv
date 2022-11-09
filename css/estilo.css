@@ -1,13 +1,25 @@
 *{
-    background-color: rgb(181, 212, 186);
+    border: 0;
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
 }
 
-#header{
-    background-color: rgb(37, 109, 53);
-    
 
+body{
+    
+    background-image: url(https://res.cloudinary.com/dnl44q1wd/image/upload/v1667963987/imagen1_1_odggfh.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    
 }
 
 h1{
-    text-align: center;
+    color: blanchedalmond;
+    top: 30px;
+    left: 42%;
+    position: absolute;
+    font-size: 100px;
 }
