@@ -23,3 +23,41 @@ h1{
     position: absolute;
     font-size: 100px;
 }
+
+#sections{
+    width: 50%;
+    height: 650px;
+    
+    position: relative;
+
+}
+
+#sections_item{
+    display: inline-block;
+    background-color: blanchedalmond;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+    
+    
+   
+
+}
+h2{
+    background-color: green;
+    position: relative;
+    top: 50%;
+}
+
+#sections_item a{
+    display: inline-block;
+    background-color: blueviolet;
+    font-size: small;
+    text-decoration: none;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    
+    
+}
