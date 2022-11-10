@@ -34,30 +34,34 @@ h1{
 
 #sections_item{
     display: inline-block;
-    background-color: blanchedalmond;
-    height: 100px;
     width: 100px;
-    border-radius: 50%;
     text-align: center;
+    margin: 30px;    
+    
+   
     
     
    
 
 }
 h2{
-    background-color: green;
     position: relative;
     top: 50%;
+    left: 21%;
 }
 
 #sections_item a{
-    display: inline-block;
-    background-color: blueviolet;
+    display: flex;
+    background-color: rgb(369, 300, 270);
     font-size: small;
     text-decoration: none;
     height: 100px;
     width: 100px;
+    border-radius: 50%;
     position: absolute;
+    align-items: center;
+    justify-content: center;
+
     
     
 }
