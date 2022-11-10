@@ -38,25 +38,21 @@ h1{
     text-align: center;
     margin: 30px;    
     
-   
-    
-    
-   
-
 }
 h2{
     position: relative;
     top: 50%;
     left: 21%;
+    
 }
 
 #sections_item a{
+    color: rgb(109, 108, 108);
     display: flex;
-    background-color: rgb(369, 300, 270);
-    font-size: small;
+    background-color: rgb(255, 202, 29);
     text-decoration: none;
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
     border-radius: 50%;
     position: absolute;
     align-items: center;
