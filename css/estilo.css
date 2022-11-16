@@ -28,9 +28,8 @@ h1{
     text-align: center;
     color: blanchedalmond;
     top: 30px;
-   
-   
     font-size: 6rem;
+    position: absolute;
 }
 
 
@@ -38,28 +37,17 @@ h1{
 
 #sections{
     width: 1300px;
-    height: 650px;
-
-}
-
-#sections_item{
-    display: inline-block;
-    text-align: center;
-    margin: 30px;    
-    
-    
-    
-}
-
-h2{
-    position: relative;
-    top: 420px;
-    left: 12%;
+    background-color: blueviolet;
 
 
 }
 
-#sections_item a{
+
+
+
+
+
+#sections_item_curriculum a{
 
     color: rgb(105, 86, 86);
     display: flex;
@@ -73,13 +61,55 @@ h2{
     align-items: center;
     justify-content: center;
     transition: 0.3s;
+    bottom: 210px;
+    left: 270px;
     
     
-
-    
-    
+      
 }
-#sections_item a:hover{
+
+#sections_item_back a{
+
+    color: rgb(105, 86, 86);
+    display: flex;
+    background-color: rgb(229, 200, 240);
+    font-size: medium;
+    text-decoration: none;
+    height: 102px;
+    width: 102px;
+    border-radius: 50%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    bottom: 210px;
+    left: 90px;
+    
+    
+      
+}
+#sections_item_front a{
+
+    color: rgb(105, 86, 86);
+    display: flex;
+    background-color: rgb(229, 200, 240);
+    font-size: medium;
+    text-decoration: none;
+    height: 102px;
+    width: 102px;
+    border-radius: 50%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    bottom: 210px;
+    left: 450px;
+    
+    
+      
+}
+
+#sections_item_curriculum a:hover{
     color: blanchedalmond;
     background: linear-gradient(0deg, rgb(255, 38, 0), rgb(255, 145, 0));
     box-shadow: 3px 0 10px rgb(255, 136, 0), 0 0 40px rgb(255, 94, 0), 0 0 80px rgb(255, 72, 0);
@@ -87,11 +117,167 @@ h2{
     width: 108px;
     rotate: 45deg;
     border-radius: 0% 50% 50% 50% ;
+    bottom: 210px;
+    left: 270px;
+    display: flex;
+    text-align: center;
    
 }
 
-#item_centro{
-    bottom: 60px;
+
+
+#sections_item_back a:hover{
+    color: blanchedalmond;
+    background: linear-gradient(0deg, rgb(255, 38, 0), rgb(255, 145, 0));
+    box-shadow: 3px 0 10px rgb(255, 136, 0), 0 0 40px rgb(255, 94, 0), 0 0 80px rgb(255, 72, 0);
+    height: 108px;
+    width: 108px;
+    rotate: 45deg;
+    border-radius: 0% 50% 50% 50% ;
+    bottom: 210px;
+    left: 90px;
+    display: flex;
+    text-align: center;
+   
+   
 }
 
+#sections_item_front a:hover{
+    color: blanchedalmond;
+    background: linear-gradient(0deg, rgb(255, 38, 0), rgb(255, 145, 0));
+    box-shadow: 3px 0 10px rgb(255, 136, 0), 0 0 40px rgb(255, 94, 0), 0 0 80px rgb(255, 72, 0);
+    height: 108px;
+    width: 108px;
+    rotate: 45deg;
+    border-radius: 0% 50% 50% 50% ;
+    bottom: 210px;
+    left: 450px;
+    display: flex;
+    text-align: center;
+   
+   
+}
 
+@media (max-width:800px){
+    body{
+    
+        background-image: url(https://res.cloudinary.com/dnl44q1wd/image/upload/v1668583746/Fondo_Movil_Edwin_Salazar_tt8jpk.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        
+        
+    }
+
+    #sections_item_curriculum a{
+
+        color: rgb(105, 86, 86);
+        display: flex;
+        background-color: rgb(229, 200, 240);
+        font-size: medium;
+        text-decoration: none;
+        height: 102px;
+        width: 102px;
+        border-radius: 50%;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s;
+        top: 700px;
+        left: 320px;
+        
+        
+          
+    }
+    
+    #sections_item_back a{
+    
+        color: rgb(105, 86, 86);
+        display: flex;
+        background-color: rgb(229, 200, 240);
+        font-size: medium;
+        text-decoration: none;
+        height: 102px;
+        width: 102px;
+        border-radius: 50%;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s;
+        top: 700px;
+        left: 160px;
+        
+        
+          
+    }
+    #sections_item_front a{
+    
+        color: rgb(105, 86, 86);
+        display: flex;
+        background-color: rgb(229, 200, 240);
+        font-size: medium;
+        text-decoration: none;
+        height: 102px;
+        width: 102px;
+        border-radius: 50%;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s;
+        top: 700px;
+        left: 480px;
+        
+        
+          
+    }
+    
+    #sections_item_curriculum a:hover{
+        color: blanchedalmond;
+        background: linear-gradient(0deg, rgb(255, 38, 0), rgb(255, 145, 0));
+        box-shadow: 3px 0 10px rgb(255, 136, 0), 0 0 40px rgb(255, 94, 0), 0 0 80px rgb(255, 72, 0);
+        height: 108px;
+        width: 108px;
+        rotate: 45deg;
+        border-radius: 0% 50% 50% 50% ;
+        top: 700px;
+        left: 320px;
+        display: flex;
+        text-align: center;
+       
+    }
+    
+    
+    
+    #sections_item_back a:hover{
+        color: blanchedalmond;
+        background: linear-gradient(0deg, rgb(255, 38, 0), rgb(255, 145, 0));
+        box-shadow: 3px 0 10px rgb(255, 136, 0), 0 0 40px rgb(255, 94, 0), 0 0 80px rgb(255, 72, 0);
+        height: 108px;
+        width: 108px;
+        rotate: 45deg;
+        border-radius: 0% 50% 50% 50% ;
+        top: 700px;
+        left: 160px;
+        display: flex;
+        text-align: center;
+       
+       
+    }
+    
+    #sections_item_front a:hover{
+        color: blanchedalmond;
+        background: linear-gradient(0deg, rgb(255, 38, 0), rgb(255, 145, 0));
+        box-shadow: 3px 0 10px rgb(255, 136, 0), 0 0 40px rgb(255, 94, 0), 0 0 80px rgb(255, 72, 0);
+        height: 108px;
+        width: 108px;
+        rotate: 45deg;
+        border-radius: 0% 50% 50% 50% ;
+        top: 700px;
+        left: 480px;
+        display: flex;
+        text-align: center;
+       
+       
+    }
+
+    
+}
