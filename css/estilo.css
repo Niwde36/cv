@@ -12,6 +12,7 @@
 
 html{
     font-size: 66%;
+    background-color: rgb(7, 8, 26);
 }
 
 body{
@@ -26,9 +27,10 @@ body{
     margin-left: 5%;
     align-content: center;
     background-image: url(https://res.cloudinary.com/dnl44q1wd/image/upload/v1667963987/imagen1_1_odggfh.png);
-    background-position: 50%;
+    
     background-repeat: no-repeat;
     background-size: contain;
+   
 
 }
 
@@ -48,14 +50,16 @@ li{
 }
 
 .header{
-    width: 90%;
-    margin: 39px auto;
+    width: 100%;
+    height: 36px;
+    background-color: #45707f;
+    margin-bottom: 33px;
 }
 
 .header .header--img{
     width: 100%;
     align-items: center;
-    margin-bottom: 6px;
+    
 }
 
 .header--socialmedia{
@@ -67,6 +71,7 @@ li{
 h1{
     text-align: center;
     font-size: 3rem;
+    color: blanchedalmond;
 }
 
 .main{
@@ -81,12 +86,29 @@ h1{
     align-items: center;
     margin-left: 5%;
     position: absolute;
-    top: 420px;
+    top: 300px;
 }
 
 h2{
-    display: inline-block;
+    width: 81px;
+    height: 81px;
+    background-color: blanchedalmond;
+    margin: 33px auto;
+    border-radius: 50%;
+    display: flex;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+}
+
+.footer{
+    width: 100%;
+    background-color: #45707f;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+
 }
 
 
