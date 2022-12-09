@@ -7,10 +7,74 @@
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
+    font-family: 'Vollkorn', serif;
     
 }
 
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.principal-container{
+    background-color: azure;
+    text-align: center;
+    height: 100vh;
+}
+.pc-header--links--wa a img{
+    width: 30px;
+    margin: 10px auto;
+}
+
+.pc-header--links--lkin a img{
+    width: 30px;
+    margin: 10px auto;
+}
+
+.pc-header--links--am a img{
+    width: 30px;
+    margin: 10px auto;
+}
+
+.pc-header ul{
+    
+    background-color: white;
+    display: flex;
+
+}
+
+.pc-header--links li{
+    width: 33.3%;
+}
+
+.pc-main--header_pic img{
+    width: 100vw;
+}
+
+.pc-main--profile_pic img{
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    margin-top: -90px;
+    border-style: solid;
+    border-color: white;
+    border-width: 6px;
+}
+
+
+
+
+
+
+/* 
+=========================================================================
+=========================================================================
+
 html{
+    
     font-size: 66%;
     background-color: rgb(7, 8, 26);
 }
@@ -112,7 +176,8 @@ h2{
 }
 
 
-
+=============================================================================
+============================================================================= */
 
 
 
