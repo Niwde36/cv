@@ -49,7 +49,6 @@ a{
 
 .pc-header--links li{
     width: 33.3%;
-    /* align-content: center; */
 }
 
 .pc-main--header_pic img{
@@ -66,9 +65,29 @@ a{
     border-width: 6px;
 }
 
+.pc-main--portfolio{
+    display: flex;
+    justify-content: space-between;
+}
 
+.pc-main--portfolio ul{
+    margin: 30px auto;
+}
 
+.pc-main--portfolio ul li{
+    background-color: rgb(92, 73, 111);
+    display: inline-block;
+    height: 30px;
+    width: 180px;
+    margin: 33px;
+    border-radius: 12px;
+}
 
+.pc-main--portfolio ul li a{
+    display: block;
+    color: white;
+    padding-top: 6px;
+}
 
 
 /* 
