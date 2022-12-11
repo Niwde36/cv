@@ -51,11 +51,14 @@ a{
 
 .a-main-text{
     width: 90%;
-    height: 270px;
     margin: 30px auto;
-    background-color: white;
 }
 
 .a-main-text p{
+    padding: 15px;
     font-size: 1.5rem;
+    border-style: solid;
+    border-color: #dff3f3;
+    border-width: 3px;
+    border-radius: 12px;
 }
