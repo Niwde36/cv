@@ -48,3 +48,14 @@ a{
     border-color: white;
     border-width: 6px;
 }
+
+.a-main-text{
+    width: 90%;
+    height: 270px;
+    margin: 30px auto;
+    background-color: white;
+}
+
+.a-main-text p{
+    font-size: 1.5rem;
+}
