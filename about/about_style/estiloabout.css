@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Vollkorn', serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+.principal-container-about{
+    background-color: azure;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.pca-header--links li img{
+    width: 30px;
+    margin: 10px auto;
+}
+
+.pca-header--links{
+    display: flex;
+    background-color: white;
+
+}
+
+.pca-header--links li{
+    width: 33.3%;
+}
