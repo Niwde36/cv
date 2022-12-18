@@ -89,6 +89,27 @@ a{
     padding-top: 6px;
 }
 
+@media (min-width:768px) {
+
+    body{
+        background-color: rgb(214, 214, 214);
+    }
+
+    .principal-container{
+        width: 50%;
+        margin: 36px auto;
+        border-radius: 12px;
+    }
+
+    .pc-header ul{
+        border-radius: 12px;
+    }
+
+    .pc-main--header_pic img{
+        width: 100%;
+
+    }
+}
 
 /* 
 =========================================================================
