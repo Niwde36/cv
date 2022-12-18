@@ -74,8 +74,8 @@ a{
         border-radius: 12px;
     }
 
-    .pc-header ul{
-        border-radius: 12px;
+    .principal-container-about ul{
+        border-radius: 12px 12px 0 0;
     }
 
     .a-main-image_header img{

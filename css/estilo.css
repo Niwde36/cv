@@ -102,7 +102,7 @@ a{
     }
 
     .pc-header ul{
-        border-radius: 12px;
+        border-radius: 12px 12px 0 0;
     }
 
     .pc-main--header_pic img{
