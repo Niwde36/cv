@@ -62,3 +62,24 @@ a{
     border-width: 3px;
     border-radius: 12px;
 }
+
+@media (min-width:768px) {
+    body{
+        background-color: rgb(214, 214, 214);
+    }
+
+    .principal-container{
+        width: 50%;
+        margin: 36px auto;
+        border-radius: 12px;
+    }
+
+    .pc-header ul{
+        border-radius: 12px;
+    }
+
+    .a-main-image_header img{
+        width: 100%;
+
+    }
+}
