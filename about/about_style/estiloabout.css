@@ -16,7 +16,7 @@ a{
 .principal-container{
     background-color: azure;
     text-align: center;
-    height: 100vh;
+    height: auto;
     width: 100vw;
 }
 
