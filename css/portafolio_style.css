@@ -1,6 +1,4 @@
 
-
-
 /*General Style*/
 *{
     border: 0;
@@ -22,7 +20,7 @@ a{
 .principal-container{
     background-color: azure;
     text-align: center;
-    height: 101vh;
+    height: auto;
     width: 100vw;
 }
 .pc-header--links--wa a img{
@@ -68,13 +66,14 @@ a{
 .pc-main--portfolio{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .pc-main--portfolio ul{
     margin: 30px auto;
 }
 
-.pc-main--portfolio ul li{
+#pc-main--portfolio--links{
     background-color: rgb(92, 73, 111);
     display: inline-block;
     height: 30px;
@@ -89,19 +88,14 @@ a{
     padding-top: 6px;
 }
 
-.pc-main--portfolio--links-img{
+.pc-main--portfolio--links img{
     display: flex;
     justify-content: space-between;
 }
 
-.pc-main--portfolio-img ul{
-    margin: 30px auto;
-}
+.pc-main--portfolio--links-general li a img{
+    width: 12rem;
 
-.pc-main--portfolio--links-img a img{
-    width: 10rem;
-    display: inline-block;
-    margin: 33px;
 }
 
 @media (min-width:768px) {
